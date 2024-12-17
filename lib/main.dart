@@ -16,13 +16,13 @@ class MyForm extends StatefulWidget {
 
 class _MyFormState extends State<MyForm> {
 
-  final _formkey = GlobalKey<FormState>();
-  final _name = TextEditingController();
-  final _mobile = TextEditingController();
-  final _password = TextEditingController();
-  final _confirmPassword = TextEditingController();
-  final _comment = "this is second branch";
+  var _formkey = GlobalKey<FormState>();
 
+  var _name = TextEditingController();
+  var _mobile = TextEditingController();
+  var _password = TextEditingController();
+  var _confirmPassword = TextEditingController();
+  final _secondbranch = "this is second branch";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
